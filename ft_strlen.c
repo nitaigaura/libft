@@ -6,18 +6,18 @@
 /*   By: ngaurama <ngaurama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 09:17:35 by ngaurama          #+#    #+#             */
-/*   Updated: 2024/11/05 15:33:06 by ngaurama         ###   ########.fr       */
+/*   Updated: 2024/11/12 10:38:21 by ngaurama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_strlen(char const *s)
+size_t	ft_strlen(char const *s)
 {
-    int i;
-    
-    i = 0;
-    while (s[i])
-        i++;
-    return (i);    
+	size_t	i;
+
+	i = 0;
+	while (s[i])
+		i++;
+	return (i);
 }

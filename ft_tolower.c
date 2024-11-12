@@ -6,14 +6,15 @@
 /*   By: ngaurama <ngaurama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 08:15:03 by ngaurama          #+#    #+#             */
-/*   Updated: 2024/11/04 08:15:59 by ngaurama         ###   ########.fr       */
+/*   Updated: 2024/11/08 19:12:29 by ngaurama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_tolower(int c)
+int	ft_tolower(int c)
 {
-    if (c >= 'A' && c <= 'Z') {
-        return c + ('a' - 'A');
-    }
-    return c;
+	if (c >= 'A' && c <= 'Z')
+	{
+		return (c + ('a' - 'A'));
+	}
+	return (c);
 }
